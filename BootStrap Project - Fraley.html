@@ -89,6 +89,12 @@
                 </button>
             </div>
         </div>
+        <div class="container-fluid bg-primary">
+            <button data-bs-toggle="collapse" data-bs-target="#demo">Additional Info</button>
+            <div id="demo" class="collapse">
+                Some species of animals are only shown under one seasonal dropdown although they might apply to many more.
+            </div>
+        </div>
         <script>
             var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
             var popoverList = popoverTriggerList.map(function (popoverTriggerEl){
